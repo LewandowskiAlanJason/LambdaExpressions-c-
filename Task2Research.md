@@ -4,8 +4,6 @@ Lambda expressions are used like anonymous functions it means that doesn`t conta
 in this case we represent the lambda expression with **Func**, 
 can receive input parameters and will return a value 
 >Func<parameter1,output>
-Also you can receive more parameters, you just have to put them at the beginning, and the return value always goes at the end
->Func<parameter1, parameter2, parameter3, output>
 ___
 ```c#
 class program{
@@ -20,6 +18,9 @@ static void Main (string[] args){
 
 ```
 >result=16
+
+Also you can receive more parameters, you just have to put them at the beginning, and the return value always goes at the end
+>Func<parameter1, parameter2, parameter3, output>
 
 ##Uses:
 - its most used when you want to pass a small piece of code to another method, as a filtering method
