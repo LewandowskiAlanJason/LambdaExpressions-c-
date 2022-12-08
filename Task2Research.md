@@ -22,7 +22,7 @@ static void Main (string[] args){
 Also you can receive more parameters, you just have to put them at the beginning, and the return value always goes at the end
 >Func<parameter1, parameter2, parameter3, output>
 
-##Uses:
+## Uses:
 - its most used when you want to pass a small piece of code to another method, as a filtering method
 ___
 ```c#
